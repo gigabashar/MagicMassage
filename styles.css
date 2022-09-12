@@ -663,9 +663,10 @@ html:focus-within {
   height: 14px;
   border-radius: 50%;
   background-color: #cbced6;
+  transition: 300ms;
 }
 .circle.active {
-  background-color: var(--clr-secondary-blue);
+  background-color: var(--clr-primary-blue);
 }
 .bottom-section-main-content__img-responsive {
   display: none;
