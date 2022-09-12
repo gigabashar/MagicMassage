@@ -413,7 +413,7 @@ html:focus-within {
 }
 .middle-section-main-content {
   background: linear-gradient(118.72deg, #aeccff -18.14%, #197aff 165.34%);
-  padding: 3rem 18vw 5rem;
+  padding: 3rem var(--main-content-padding) 5rem;
 }
 .middle-section-cards {
   display: flex;
