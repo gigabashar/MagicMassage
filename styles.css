@@ -28,7 +28,7 @@
   --fs-package-heading: 3rem;
   --fs-top-section-heading: 4.2rem;
   --fs-section-heading: 3.7rem;
-  --main-content-padding: 8vw;
+  --main-content-padding: 15vw;
   --text-uppercase: uppercase;
 }
 
@@ -377,7 +377,7 @@ html:focus-within {
 }
 
 .middle-section-header {
-  padding: 3rem 10rem 3rem var(--main-content-padding);
+  padding: 3rem var(--main-content-padding);
   display: flex;
   justify-content: space-between;
 
@@ -413,7 +413,7 @@ html:focus-within {
 }
 .middle-section-main-content {
   background: linear-gradient(118.72deg, #aeccff -18.14%, #197aff 165.34%);
-  padding: 3rem 9vw 5rem;
+  padding: 3rem 18vw 5rem;
 }
 .middle-section-cards {
   display: flex;
@@ -550,7 +550,7 @@ html:focus-within {
   padding: 1rem;
 }
 .costumers-section {
-  padding: 5rem 12rem;
+  padding: 5rem var(--main-content-padding);
 }
 .costumers-section-heading {
   padding: 2rem 0rem 0rem;
@@ -721,10 +721,9 @@ html:focus-within {
 }
 .bottom-section-main-content {
   display: flex;
-
   align-items: flex-start;
   gap: 10rem;
-  padding: 6rem 10vw;
+  padding: 6rem var(--main-content-padding);
 }
 .bottom-section__h1 {
   text-align: center;
@@ -744,6 +743,12 @@ html:focus-within {
 .see-all__span {
   cursor: pointer;
 }
+@media (max-width: 1440px) {
+  :root {
+    --main-content-padding: 8vw;
+  }
+}
+
 @media (max-width: 768px) {
   :root {
     --fs-top-section-heading: 2.8rem;
