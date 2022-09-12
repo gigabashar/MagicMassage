@@ -744,6 +744,9 @@ html:focus-within {
 .see-all__span {
   cursor: pointer;
 }
+.middle-section-cards .flex-order-1 {
+  background-color: white;
+}
 @media (max-width: 1440px) {
   :root {
     --main-content-padding: 8vw;
